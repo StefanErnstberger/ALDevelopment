@@ -1,0 +1,167 @@
+{
+  "id": "99778818-ea69-435c-849d-90e90446244c",
+  "name": "ALDevelopment",
+  "publisher": "SHB_Aeromaritime",
+  "version": "24.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+        {
+            "id": "16319982-4995-4fb1-8fb2-2b1e13773e3b",
+            "name": "AMC Banking 365 Fundamentals",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+                {
+            "id": "f3552374-a1f2-4356-848e-196002525837",
+            "name": "Business Foundation",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },       
+        {
+            "id": "c512d720-63b9-4b26-b062-a0c09b4ed322",
+            "name": "Company Hub",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        }, 
+        {
+        "id": "7819d79d-feea-4f09-bbed-5bbaca4bf323",
+            "name": "Data Archive",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },  
+        {        
+            "id": "ac14293f-1eb7-4a7b-9936-b280da31970b",
+            "name": "Data Search",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+{
+            "id": "b0c41a2d-9ebe-4773-a22f-86bd69e75949",
+            "name": "ELSTER VAT Localization for Germany",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },          
+        {
+            "id": "08d69832-9231-429e-be2c-8bab2c96905b",
+            "name": "Email - Current User Connector",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+        {
+            "id": "aceb66c8-472e-437c-81d3-27e6c07d0f14",
+            "name": "Email - Microsoft 365 Connector",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+        {
+            "id": "e6328152-bb29-4664-9dae-3bc7eaae1fd8",
+            "name": "Email - Outlook REST API",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },                
+        {
+            "id": "2a89f298-7ffd-44a5-a7ce-e08dac98abce",
+            "name": "Essential Business Headlines",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+        {
+            "id": "3d5b2137-efeb-4014-8489-41d37f8fd4c3",
+            "name": "Late Payment Prediction",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },  
+        {
+            "id": "d09fa965-9a2a-424d-b704-69f3b54ed0ce",
+            "name": "Payment Links to PayPal",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },    
+        {
+            "id": "87990153-0e35-4e5d-ba61-2e93077d1699",
+            "name": "Review General Ledger Entries",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+        {
+            "id": "c526b3e9-b8ca-4683-81ba-fcd5f6b1472a",
+            "name": "Sales and Inventory Forecast",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        }, 
+        {
+            "id": "8c972578-fe72-4aa5-ae51-cc5575fef2ea",
+            "name": "Send To Email Printer",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },   
+        {
+            "id": "79b1a79a-2f66-4736-bc1b-8abb3537eb51",
+            "name": "Simplified Bank Statement Import",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },                                                                                
+        {
+            "id": "ea130081-c669-460f-a5f4-5dde14f03131",
+            "name": "Statistical Accounts",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },  
+        {
+            "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+            "name": "System Application",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },                                                                                
+        {
+            "id": "7961e9dc-a8e5-49b1-839b-3a78803a4cb8",
+            "name": "Troubleshoot FA Ledger Entries",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },                                                                                
+        {
+            "id": "2654d7e7-9afd-4947-9e02-6bb8f3e0cd04",
+            "name": "Universal Print Integration",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },                                                                                
+        {
+            "id": "bae453ed-0fd8-4416-afdc-4b09db6c12c3",
+            "name": "WorldPay Payments Standard",
+            "publisher": "Microsoft",
+            "version": "24.0.16140.18056"
+        },
+        {
+            "id": "d3c9adb5-7b3e-4f54-967b-0ae461ffb680",
+            "name": "Aeromaritime_General",
+            "publisher": "B.i.TEAM Gesellschaft für Softwareberatung mbH",
+            "version": "24.0.16140.18056"   
+
+        }                                                        
+  ],
+  "screenshots": [],
+  "platform": "24.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "target": "OnPrem",
+  "features": [
+    "TranslationFile"
+  ]
+}
