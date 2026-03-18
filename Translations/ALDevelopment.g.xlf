@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ALDevelopment">
     <body>
       <group id="body">
+        <trans-unit id="Report 3919486612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Entries Job and Ressource</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Projekt und Ressource Posten löschen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Temp_DeleteEntriesResAndJob - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1434786627 - Control 3119688693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Shows the Vendor Name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
