@@ -8,6 +8,36 @@
           <note from="Developer" annotates="general" priority="2">DEU="Projekt und Ressource Posten löschen"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Temp_DeleteEntriesResAndJob - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2463046508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Entries Job and Ressource</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Projekt und Ressource Posten löschen"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Temp_DeleteobLedgerEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 604192749 - Change 1344195663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
+          <source>Material Access</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Materialzugang"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentSub - Change InfoField1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 604192749 - Change 1657246559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
+          <source>Alt-Unit No.</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Alt-Unit Nr."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentSub - Change InfoField10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 604192749 - Change 237711452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
+          <source>Installationn Place</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Verortung"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentSub - Change InfoField4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 604192749 - Change 3894982131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Beschreibung"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentSub - Change InfoField5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 604192749 - Change 2150801303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
+          <source>Colour</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Farbe"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentSub - Change InfoField9 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1434786627 - Control 3119688693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Shows the Vendor Name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -22,6 +52,36 @@
           <source>Vendor Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Field 3082437212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Manufacturer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Field Manufacturer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Change 1344195663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Material Access</source>
+          <note from="Developer" annotates="general" priority="2">DEU=""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Change InfoField1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Change 1657246559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Alt-Unit No.</source>
+          <note from="Developer" annotates="general" priority="2">DEU=""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Change InfoField10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Change 237711452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Installationn Place</source>
+          <note from="Developer" annotates="general" priority="2">DEU=""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Change InfoField4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Change 3894982131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2">DEU=""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Change InfoField5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Change 2150801303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Colour</source>
+          <note from="Developer" annotates="general" priority="2">DEU=""</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Change InfoField9 - Property Caption</note>
         </trans-unit>
       </group>
     </body>
