@@ -11,23 +11,24 @@ tableextension 50051 "Job Planning Line" extends "Job Planning Line"
         }
         modify(InfoField1)
         {
-            Caption = 'Material Access', comment = 'DEU=""';
+            Caption = 'Material Access / Materialzugang';
+
         }
         modify(InfoField4)
         {
-            Caption = 'Installationn Place', comment = 'DEU=""';
+            Caption = 'Installationn Place / Verortung';
         }
         modify(InfoField5)
         {
-            Caption = 'Description', comment = 'DEU=""';
+            Caption = 'Description / Beschreibung';
         }
         modify(InfoField9)
         {
-            Caption = 'Colour', comment = 'DEU=""';
+            Caption = 'Colour / Farbe';
         }
         modify(InfoField10)
         {
-            Caption = 'Alt-Unit No.', comment = 'DEU=""';
+            Caption = 'Alt-Unit No. / Alt-Unit Nr.';
         }
     }
 }
