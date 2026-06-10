@@ -18,8 +18,7 @@
             "enableSqlInformationDebugger": true,
             "tenant": "default",
             "usePublicURLFromServer": true,
-            "schemaUpdateMode": "Synchronize"
-        },
+            "schemaUpdateMode": "ForceSync"        },
         {
             "name": "BC01Test",
             "request": "launch",
@@ -38,6 +37,27 @@
             "tenant": "default",
             "usePublicURLFromServer": true,
             "schemaUpdateMode": "Synchronize"
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "server": "http://BC01.aeromaritime.net",
+            "serverInstance": "BC240",
+            "authentication": "Windows",
+            "port": 7349
+        },
+        {
+            "name": "AL: Generated Snapshot request",
+            "request": "snapshotInitialize",
+            "type": "al",
+            "server": "http://BC01.aeromaritime.net",
+            "serverInstance": "BC240",
+            "authentication": "Windows",
+            "port": 7349,
+            "sessionId": 12294,
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile"
         }
     ]
 }
