@@ -16,6 +16,13 @@ tableextension 50051 "Job Planning Line" extends "Job Planning Line"
             Editable = false;
             CalcFormula = lookup(Item."item Classification" where("No." = field("No.")));
         }
+        field(51002; "Count Serial No."; Integer)
+        {
+            Caption = 'Count Serial No.';
+            FieldClass = FlowField;
+            CalcFormula = Count(LoE_SerialNo where("Job No." = field("Job No."), "Job Task No." = field("Job Task No."), "Job Line No." = field("Line No.")));
+            Editable = false;
+        }
         modify(InfoField1)
         {
             Caption = 'Material Access', comment = 'Materialzugang"';

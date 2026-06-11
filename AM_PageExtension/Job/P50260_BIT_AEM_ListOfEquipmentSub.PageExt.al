@@ -16,6 +16,10 @@ pageextension 50260 "BIT_AEM_ListOfEquipmentSub" extends "BIT_AEM_ListOfEquipmen
             {
                 ApplicationArea = all;
             }
+            field("Count Serial No."; rec."Count Serial No.")
+            {
+                ApplicationArea = all;
+            }
         }
         modify(InfoField1)
         {
@@ -39,5 +43,29 @@ pageextension 50260 "BIT_AEM_ListOfEquipmentSub" extends "BIT_AEM_ListOfEquipmen
             Caption = 'Alt-Unit No. / Alt-Unit Nr.';
         }
 
+
     }
+
+    actions
+    {
+        addbefore(CreateJobJournalLines)
+        {
+            action(SerialNo)
+            {
+                Caption = 'SerialNo';
+                Image = SerialNo;
+                ApplicationArea = All;
+                //Promoted = true;
+                //PromotedIsBig = true;
+                //PromotedCategory = Process;
+
+
+                RunObject = Page LoE_SerialNo;
+                RunPageLink = "Job No." = field("Job No."),
+                            "Job Task No." = field("Job Task No."),
+                            "Job Line No." = field("Line No.");
+            }
+        }
+    }
+
 }

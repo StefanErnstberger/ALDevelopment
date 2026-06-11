@@ -3,6 +3,71 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ALDevelopment">
     <body>
       <group id="body">
+        <trans-unit id="Table 67550260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LoE Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 2097101447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No. Component</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Item No. Component - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 3790198058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Line No.</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Zeilen Nr."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Job Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 561421623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Job Task No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Zeilen Nr."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 2001434002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Equipment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field List Of Equipment No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 67550260 - Field 47037625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 67550260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LoE Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LoE_SerialNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4275905126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LoE SerialNo FactBox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LoE_SerialNo_FactBox - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3919486612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Temp_DeleteEntriesResAndJob</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17,6 +82,16 @@
           <source>Delete Entries Job and Ressource</source>
           <note from="Developer" annotates="general" priority="2">DEU="Projekt und Ressource Posten löschen"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Temp_DeleteobLedgerEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 125807755 - Control 4275905126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2087899377">
+          <source>LoE Serial No. FactBox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentHdr - Control LoE_SerialNo_FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 604192749 - Action 2164308859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
+          <source>SerialNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BIT_AEM_ListOfEquipmentSub - Action SerialNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 604192749 - Change 1344195663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 604192749">
           <source>Material Access / Materialzugang</source>
@@ -77,6 +152,11 @@
           <source>Vendor Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537641792 - Field 2625521520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Count Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Field Count Serial No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1537641792 - Field 4071760069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
           <source>Item Classification</source>
