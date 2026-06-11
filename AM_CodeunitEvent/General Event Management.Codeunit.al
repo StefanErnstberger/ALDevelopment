@@ -12,7 +12,7 @@ codeunit 55030 "General Event Management"
     //Intrastat Event T27 On After Validate Vendor No.
     //-----------------------------------------------------------
     [EventSubscriber(ObjectType::Table, Database::Item, OnAfterValidateEvent, "Vendor No.", true, true)]
-    local procedure T27_OnAfterValidateVendorNot(var Rec: Record item)
+    local procedure T27_OnAfterValidateVendorNo(var Rec: Record item)
     var
         GeneralManagement: Codeunit "General Management";
     begin

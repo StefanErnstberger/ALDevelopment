@@ -1,4 +1,4 @@
-codeunit 55031 "General Management"
+codeunit 50021 "General Management"
 {
     Permissions = TableData "Item" = rmid,
         tabledata "Vendor" = rmid,

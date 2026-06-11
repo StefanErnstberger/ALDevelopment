@@ -193,6 +193,21 @@
           <note from="Developer" annotates="general" priority="2">"Farbe"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Planning Line - Change InfoField9 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1363932137 - Field 4071760069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Item Classification</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Artikelaufteilungsgruppe"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Prodorder_Component - Field item Classification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1363932137 - Field 2585418950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Manufacturer Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Prodorder_Component - Field Manufacturer Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1363932137 - Field 3082437212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Manufacturer Name</source>
+          <note from="Developer" annotates="general" priority="2">Hersteller Name"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Prodorder_Component - Field Manufacturer Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3438801558 - Field 4071760069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
           <source>Item Classification</source>
           <note from="Developer" annotates="general" priority="2">DEU="Artikelaufteilungsgruppe"</note>
@@ -237,6 +252,11 @@
           <source>KB</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Item_Classification - EnumValue KB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 739814469 - Control 4266699491 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 814227274">
+          <source>Prod. Order No. Filter</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Fertigungsauftrag Nr."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension CalculatePlanPlanWksh - Control ProdOrderNo_Filter - Property Caption</note>
         </trans-unit>
       </group>
     </body>
