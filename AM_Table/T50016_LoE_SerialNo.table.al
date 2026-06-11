@@ -3,6 +3,7 @@ table 50016 LoE_SerialNo
     DataClassification = CustomerContent;
     Caption = 'LoE Serial No.';
     LookupPageId = LoE_SerialNo;
+    DrillDownPageId = LoE_SerialNo;
 
     fields
     {
@@ -46,7 +47,7 @@ table 50016 LoE_SerialNo
         }
         field(13; Comment; Text[100])
         {
-            Caption = 'Serial No.';
+            Caption = 'Comment';
         }
         field(21; Description; Text[100])
         {

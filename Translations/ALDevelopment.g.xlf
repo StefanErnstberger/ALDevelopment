@@ -9,7 +9,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 67550260 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Serial No.</source>
+          <source>Comment</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table LoE_SerialNo - Field Comment - Property Caption</note>
         </trans-unit>
