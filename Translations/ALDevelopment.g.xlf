@@ -258,6 +258,16 @@
           <note from="Developer" annotates="general" priority="2">DEU="Fertigungsauftrag Nr."</note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension CalculatePlanPlanWksh - Control ProdOrderNo_Filter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 3381421723 - Control 1708584604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 227598240">
+          <source>Summary Components</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Zusammenfassung FA Komponenten"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Carry_Out_Action_Msg_Plan - Control SummaryComponents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1795051524 - Control 1708584604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 466643740">
+          <source>Summary Components</source>
+          <note from="Developer" annotates="general" priority="2">DEU="Zusammenfassung FA Komponenten"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Refresh_Production_Order - Control SummaryComponents - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
