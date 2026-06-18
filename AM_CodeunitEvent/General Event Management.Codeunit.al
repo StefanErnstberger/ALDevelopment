@@ -59,7 +59,7 @@ codeunit 50024 "General Event Management"
     var
         GeneralManagement: Codeunit "General Management";
     begin
-        if JobPlanningLine.InfoField1 <> '' then  //Materialzugang
+        if JobPlanningLine.MaterialAccess <> JobPlanningLine.MaterialAccess::" " then  //Materialzugang
             ShouldProcess := false;
 
     end;
