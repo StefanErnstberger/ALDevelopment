@@ -23,5 +23,12 @@ tableextension 50052 Requisition_Line extends "Requisition Line"
             Editable = false;
             CalcFormula = lookup(Item."item Classification" where("No." = field("No.")));
         }
+        field(51003; ProducerItemNo; Text[50])
+        {
+            Caption = 'Manufacturer Item No.', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Item.ProducerItemNo where("No." = field("No.")));
+            Editable = false;
+        }
     }
 }

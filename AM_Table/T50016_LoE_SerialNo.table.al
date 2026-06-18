@@ -31,6 +31,27 @@ table 50016 LoE_SerialNo
         {
             Caption = 'List of Equipment No.';
             TableRelation = BIT_AEM_ListOfEqmtHeader;
+            FieldClass = FlowField;
+            Editable = false;
+            CalcFormula = lookup("Job Planning Line"."Job Task No." where("job No." = field("Job No."), "job Task no." = field("Job Task No."), "Line No." = field("Job Line No.")));
+        }
+        field(6; "Serial No. ASYM"; Text[30])
+        {
+            Caption = 'Serial No. ASYM', comment = 'DEU="ASYM Seriennummer"';
+            TableRelation = "Job Planning Line";
+            FieldClass = FlowField;
+            Editable = false;
+            CalcFormula = lookup("Job Planning Line"."Serial no. Asym" where("job No." = field("Job No."), "job Task no." = field("Job Task No."), "Line No." = field("Job Line No.")));
+        }
+        field(7; "Serial No. OEM"; Text[30])
+        {
+            Caption = 'Serial No. OEM', comment = 'DEU="OEM Seriennummer"';
+            TableRelation = "Job Planning Line";
+            FieldClass = FlowField;
+            Editable = false;
+            CalcFormula = lookup("Job Planning Line"."Serial no. OEM" where("job No." = field("Job No."), "job Task no." = field("Job Task No."), "Line No." = field("Job Line No.")));
+
+
         }
         field(10; Date; Date)
         {
@@ -40,6 +61,10 @@ table 50016 LoE_SerialNo
         {
             Caption = 'Item No. Component';
             TableRelation = item;
+            trigger OnValidate()
+            begin
+                calcfields("Serial No. ASYM", "Serial No. OEM", "Manufacturer Code", "Manufacturer Name", ProducerItemNo, "List Of Equipment No.");
+            end;
         }
         field(12; "Serial No."; Code[20])
         {
@@ -57,16 +82,72 @@ table 50016 LoE_SerialNo
             Editable = false;
             CalcFormula = lookup(item.Description where("No." = field("Item No. Component")));
         }
+        field(22; "Manufacturer Code Component"; Code[10])
+        {
+            Caption = 'Manufacturer Code Component';
+            editable = false;
+            FieldClass = FlowField;
+            TableRelation = Manufacturer;
+            CalcFormula = lookup(item."Manufacturer Code" where("No." = field("Item No. Component")));
+        }
+        field(23; "Manufacturer Name Component"; Text[50])
+        {
+            Caption = 'Manufacturer Name Component', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Manufacturer.Name where(Code = field("Manufacturer Code Component")));
+            Editable = false;
+        }
+        field(24; ProducerItemNoComponent; Text[50])
+        {
+            Caption = 'Manufacturer Item No. Component', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Item.ProducerItemNo where("No." = field("item No. Component")));
+            Editable = false;
+        }
+        field(31; "Item No. LOE"; Code[20])
+        {
+            Caption = 'Item No. LOE';
+            TableRelation = item;
+            FieldClass = FlowField;
+            Editable = false;
+            CalcFormula = lookup("Job Planning Line"."No." where("job No." = field("Job No."), "job Task no." = field("Job Task No."), "Line No." = field("Job Line No.")));
+        }
+        field(32; "Description LOE"; Text[100])
+        {
+            Caption = 'Description LOE';
+            editable = false;
+            FieldClass = FlowField;
+            TableRelation = Manufacturer;
+            CalcFormula = lookup(item.Description where("No." = field("Item No. loe")));
+        }
+        field(51000; "Manufacturer Code"; Code[10])
+        {
+            Caption = 'Manufacturer Code';
+            editable = false;
+            FieldClass = FlowField;
+            TableRelation = Manufacturer;
+            CalcFormula = lookup(item."Manufacturer Code" where("No." = field("Item No. loe")));
+        }
+        field(51001; "Manufacturer Name"; Text[50])
+        {
+            Caption = 'Manufacturer Name', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Manufacturer.Name where(Code = field("Manufacturer Code")));
+            Editable = false;
+        }
+        field(51003; ProducerItemNo; Text[50])
+        {
+            Caption = 'Manufacturer Item No.', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Item.ProducerItemNo where("No." = field("item No. loe")));
+            Editable = false;
+        }
     }
     keys
     {
         key(Key1; "Job No.", "Job Task No.", "Job Line No.", "Line No.")
         {
             Clustered = true;
-        }
-        key(Key2; "Job No.", "List Of Equipment No.")
-        {
-
         }
     }
     fieldgroups
@@ -77,6 +158,9 @@ table 50016 LoE_SerialNo
     var
     begin
         Date := WorkDate;
+
+
+
     end;
 
     procedure DeleteSerialNoHeader(LOEHeader: record BIT_AEM_ListOfEqmtHeader)

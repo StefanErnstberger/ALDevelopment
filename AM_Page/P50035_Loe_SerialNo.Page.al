@@ -37,6 +37,22 @@ page 50035 LoE_SerialNo
                     Editable = false;
 
                 }
+                field("Manufacturer Code Component"; rec."Manufacturer Code Component")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field("Manufacturer Name Component"; rec."Manufacturer Name Component")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field(ProducerItemNoComponent; rec.ProducerItemNoComponent)
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+
                 field(Date; rec.Date)
                 {
                     ApplicationArea = All;
@@ -51,7 +67,41 @@ page 50035 LoE_SerialNo
                 {
                     ApplicationArea = all;
                     Editable = false;
-
+                }
+                field("Item No. LOE"; rec."Item No. LOE")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field("Description LOE"; rec."Description LOE")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field("Serial No. ASYM"; rec."Serial No. ASYM")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field("Serial No. OEM"; rec."Serial No. OEM")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field("Manufacturer Code"; rec."Manufacturer Code")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field("Manufacturer Name"; rec."Manufacturer Name")
+                {
+                    ApplicationArea = all;
+                    Editable = false;
+                }
+                field(ProducerItemNo; rec.ProducerItemNo)
+                {
+                    ApplicationArea = all;
+                    Editable = false;
                 }
             }
         }

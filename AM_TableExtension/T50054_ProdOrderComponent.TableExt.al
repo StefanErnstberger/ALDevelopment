@@ -23,5 +23,12 @@ tableextension 50054 Prodorder_Component extends "Prod. Order Component"
             Editable = false;
             CalcFormula = lookup(Item."item Classification" where("No." = field("item No.")));
         }
+        field(51003; ProducerItemNo; Text[50])
+        {
+            Caption = 'Manufacturer Item No.', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Item.ProducerItemNo where("No." = field("item No.")));
+            Editable = false;
+        }
     }
 }

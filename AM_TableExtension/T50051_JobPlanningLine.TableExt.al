@@ -16,7 +16,7 @@ tableextension 50051 "Job Planning Line" extends "Job Planning Line"
             Editable = false;
             CalcFormula = lookup(Item."item Classification" where("No." = field("No.")));
         }
-        field(51002; "Count Serial No."; Integer)
+        field(51003; "Count Serial No."; Integer)
         {
             Caption = 'Count Serial No.';
             FieldClass = FlowField;

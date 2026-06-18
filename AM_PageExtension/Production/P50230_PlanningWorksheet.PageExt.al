@@ -10,6 +10,14 @@ pageextension 50230 "Planning Worksheet" extends "Planning Worksheet"
         {
             Visible = true;
         }
+        addafter("Vendor Item No.")
+        {
+            field(ProducerItemNo; rec.ProducerItemNo)
+            {
+                ApplicationArea = all;
+                Visible = true;
+            }
+        }
         addafter(control9)
         {
             part(IteminvoicingFactBox; "Item invoicing FactBox")

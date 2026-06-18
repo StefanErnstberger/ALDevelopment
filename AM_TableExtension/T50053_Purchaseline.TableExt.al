@@ -8,6 +8,7 @@ tableextension 50053 Purchase_Line extends "Purchase Line"
             FieldClass = FlowField;
             TableRelation = Manufacturer;
             CalcFormula = lookup(item."Manufacturer Code" where("No." = field("No.")));
+            editable = false;
         }
         field(51001; "Manufacturer Name"; Text[50])
         {
@@ -22,6 +23,13 @@ tableextension 50053 Purchase_Line extends "Purchase Line"
             FieldClass = FlowField;
             Editable = false;
             CalcFormula = lookup(Item."item Classification" where("No." = field("No.")));
+        }
+        field(51003; ProducerItemNo; Text[50])
+        {
+            Caption = 'Manufacturer Item No.', comment = 'Hersteller Name"';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Item.ProducerItemNo where("No." = field("No.")));
+            Editable = false;
         }
     }
 }
