@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ALDevelopment">
     <body>
       <group id="body">
+        <trans-unit id="XmlPort 3996650747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEPA CT pain.001.001.09</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort SEPACTpain.001.001.09 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3996650747 - NamedType 1486195221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no data to export.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Value;%3=Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort SEPACTpain.001.001.09 - NamedType NoDataToExportErr</note>
+        </trans-unit>
         <trans-unit id="Table 67550260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LoE Serial No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
