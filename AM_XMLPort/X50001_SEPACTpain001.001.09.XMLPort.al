@@ -341,7 +341,7 @@ xmlport 50001 "SEPACTpain.001.001.09"
                                 if TempPaymentExportRemittanceText.Next() = 0 then
                                     exit;
 
-                                SeparatorText := '; ';
+                                SeparatorText := ', ';
                                 OnSpecifyRemittanceTextSeparatorText(SeparatorText);
 
                                 RemittanceText := CopyStr(
