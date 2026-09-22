@@ -63,4 +63,18 @@ codeunit 50024 "General Event Management"
             ShouldProcess := false;
 
     end;
+
+    //-----------------------------------------------------------
+    //Anforderung 22.09.2026 Herr Dollinger
+    //bei Export SEPA soll Batch Booking immer TRUE gesetzt werden
+    //-----------------------------------------------------------
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"SEPA CT-Fill Export Buffer", OnFillExportBufferOnBeforeInsertPaymentExportData, '', true, true)]
+    local procedure OnFillExportBufferBeforeInsertSepa(var PaymentExportData: Record "Payment Export Data"; var TempGenJnlLine: Record "Gen. Journal Line" temporary)
+    var
+        GeneralManagement: Codeunit "General Management";
+    begin
+        PaymentExportData."SEPA Batch Booking" := true;
+
+    end;
 }
